@@ -117,4 +117,4 @@ dAIgnoQ/
 
 ---
 
-*Team Overfit Squad — Tanishq Zade, Ayush Chintalwar, Advait Raktate, Divyansh Dubey*
+*Team Overfit Squad — Ayush Chintalwar, Tanishq Zade, Advait Raktate, Divyansh Dubey*
