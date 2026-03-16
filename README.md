@@ -1,6 +1,13 @@
 # dAIgnoQ: Quantum-AI Medical Diagnosis Platform
 
-dAIgnoQ is a Quantum-Classical Hybrid Medical Imaging Platform that leverages advanced artificial intelligence and quantum computing techniques for medical image analysis and synthetic data generation.
+dAIgnoQ is a generalized **Quantum-Classical Hybrid AI Platform designed specifically for diagnosing rare diseases**.
+
+Because rare disease datasets are notoriously small, dAIgnoQ provides an end-to-end pipeline:
+1. **Upload any small dataset** (auto-detected folders or CSV).
+2. **Generate synthetic data** using built-in GAN or DDPM Diffusion models to augmentation your dataset.
+3. **Train powerful models directly in the app**, including Classical CNNs (ResNet50) and Quantum Machine Learning models (Quantum SVM pipelines).
+4. **Test and diagnose** new images using single models or Ensemble Decision Fusion.
+5. **Review transparent diagnostics** through visual Explainable AI (Grad-CAM, SHAP) and text-based Gemini AI diagnostic reports.
 
 ## 🏗️ Architecture
 
@@ -102,12 +109,12 @@ dAIgnoQ/
 
 | Model | Type | Description |
 |-------|------|-------------|
-| ResNet50 | Classical CNN | Fine-tuned on G1020 dataset for glaucoma detection |
-| QSVM | Quantum SVM | Quantum kernel-based SVM using PennyLane |
-| CNN+VQC | Hybrid | ResNet18 backbone + Variational Quantum Circuit |
-| GAN | Generative | Synthesizes retinal fundus images |
-| Diffusion | Generative | DDPM-based high-fidelity image synthesis |
+| ResNet50 | Classical CNN | Pre-trained feature extractor, interactively fine-tuned on user-supplied datasets |
+| QSVM | Quantum SVM | Quantum kernel-based SVM built via PennyLane, trained on user data in-app |
+| CNN+VQC | Hybrid | ResNet18 backbone alongside a Variational Quantum Circuit |
+| GAN | Generative | User-trained to synthesize images simulating the uploaded rare disease |
+| Diffusion | Generative | DDPM-based reverse-diffusion model, user-trained for high-fidelity data augmentation |
 
 ---
 
-*Team Overfit Squad — Ayush Chintalwar, Tanishq Zade, Advait Raktate, Divyansh Dubey*
+*Team Overfit Squad — Tanishq Zade, Ayush Chintalwar, Advait Raktate, Divyansh Dubey*
