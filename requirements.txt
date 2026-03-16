@@ -1,0 +1,16 @@
+streamlit
+torch
+torchvision
+pennylane
+diffusers
+transformers
+accelerate
+captum
+shap
+scikit-learn
+joblib
+google-generativeai
+opencv-python
+matplotlib
+numpy
+pillow
