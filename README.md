@@ -1,4 +1,4 @@
-# dAIgnoQ: Quantum-AI Medical Diagnosis Platform
+# 🏥 dAIgnoQ: Quantum-AI Medical Diagnosis Platform
 
 dAIgnoQ is a generalized **Quantum-Classical Hybrid AI Platform designed specifically for diagnosing rare diseases**.
 
